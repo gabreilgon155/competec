@@ -6,6 +6,6 @@ public class Main
 		System.out.print(preco_laranja);
 		System.out.print('+');
 		System.out.println(preco_uva);
-		System.out.println("O preço da laranja é: "+  preco_laranja + ". O preco da uva é: "+ preco_uva+ ". O total é: " + total);
+		System.out.println("O preço da laranja é: "+  preco_laranja + ". O preço da uva é: "+ preco_uva+ ". O total é: " + total);
 	}
 }
