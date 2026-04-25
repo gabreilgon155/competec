@@ -5,23 +5,23 @@ public class Main {
 		Scanner sc = new Scanner(System.in);
 		float abacaxi = 7.30f, maca = 2, pera = 3,total;
 		int quant_aba,quant_ma,quant_pe;
-		
+		System.out.println("Insira a quantidade de frutas.\n");
 		try {
-			System.out.println("Quantos abacaxis você gostaria de comprar?");
+			System.out.print("Abacaxis: ");
 			quant_aba = sc.nextInt();
-			System.out.println("Quantas maçãs você gostaria de comprar?");
+			System.out.print("\nMaçãs: ");
 			quant_ma = sc.nextInt();
-			System.out.println("Quantas pêras você gostaria de comprar?");
+			System.out.print("\nPêras: ");
 			quant_pe = sc.nextInt();
 			
 			if(quant_aba < 0 || quant_ma < 0 || quant_pe < 0) {
 				System.out.println("Não digite numeros negativos.");
 			}else {
 			total = (abacaxi * quant_aba) + (maca * quant_ma) + (pera * quant_pe);
-			System.out.println("O total ficou: " + total);
+			System.out.println("\nO total ficou: " + total);
 			}	
 		} catch (Exception e) {
-			System.out.println("Digite apenas números.");
+			System.out.println("\nDigite apenas números.");
 		}	
 	}
 }
