@@ -1,8 +1,4 @@
-package usp;
-
-import java.util.Scanner;
-
-public class Aula25_4 {
+public class Main {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		float abacaxi = 7.30f, maca = 2, pera = 3,total;
