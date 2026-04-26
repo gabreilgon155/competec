@@ -5,7 +5,7 @@ public class Main {
 		Scanner sc = new Scanner(System.in);
 		float abacaxi = 7.30f, maca = 2, pera = 3,total;
 		int quant_aba,quant_ma,quant_pe;
-		System.out.println("Insira a quantidade de frutas.\n");
+		System.out.println("Insira a quantidade de frutas a serem compradas.\n");
 		try {
 			System.out.print("Abacaxis: ");
 			quant_aba = sc.nextInt();
