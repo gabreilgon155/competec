@@ -9,9 +9,9 @@ public class Main {
         }
         
         if (macarrao || estrogonofe){
-            System.out.printf("Estou feliz");
+            System.out.print("Estou feliz");
         }else{
-            System.out.printf("Não estou feliz");
+            System.out.print("Não estou feliz");
         }
 
     }
